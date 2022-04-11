@@ -1,0 +1,37 @@
+A. ANGULAR
+1. New project
+ng new angular-crush-course-2022
+2. Start server
+ng serve
+npm start
+3. Components
+ng generate component component/header
+ng generate component component/add-task
+
+4. Services
+ng generate service services/task
+ng generate service services/ui
+
+
+C. JSON SERVER
+- Usable back-end app emulator
+1. Refernce
+https://www.npmjs.com/package/json-server
+2. Installation
+npm install json-server
+3. Test Usage: Add to package.json (For test purposes)
+"scripts": {
+  "server": "json-server --watch db.json --port 5000"
+},
+4. Create db.json in the root folder
+- For local use
+5. Start server in Terminal
+$ npm run server
+
+
+B. ANGULAR FONT-AWESOME
+1. Refernce
+https://github.com/FortAwesome/angular-fontawesome
+2. Installation
+ng add @fortawesome/angular-fontawesome
+- Folow step e.g. choose version 5 and types solid, brand or regular (press space to select)
